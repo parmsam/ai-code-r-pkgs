@@ -2,8 +2,9 @@ project:
   type: book
 
 book:
-  title: "ai-code-r-pkgs"
-  author: "Jane Doe"
+  title: "Use of AI Coding Assistants in R Package development"
+  subtitle: "Creating R packages with assistance from Copilot or ChatGPT"
+  author: "Sam Parmar"
   date: "3/13/2023"
   chapters:
     - index.qmd
