@@ -2,7 +2,7 @@
 
 ## In this book
 
-Whether you are an experienced R package developer looking to improve your workflow, or a data scientist interested in building packages to share your work with others, this book will provide valuable insights into how AI coding assistants can help you build better packages more efficiently. 
+Whether you are an experienced R package developer looking to improve your workflow, or a data scientist interested in building packages to share your work with others, this book will provide valuable insights into how AI coding assistants can help you build better packages more efficiently.
 
 ## Prerequisites
 
@@ -12,7 +12,13 @@ Additionally, we assume that the reader has a good understanding of the R langua
 
 ## What you won't learn
 
+Here are some topics you won't learn about in this book:
+* Developing your first R package
+* Creating a large language model like ChatGPT.
+
 ## Colophon
+
+This book was created using [Quarto](https://quarto.org/docs/books/). The website is hosted on Github pages and the code is available on [Github](https://github.com/parmsam/ai-code-r-pkgs).
 
 ## Ethical considerations
 
