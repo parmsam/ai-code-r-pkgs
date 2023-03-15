@@ -22,6 +22,7 @@ This book was created using [Quarto](https://quarto.org/docs/books/). The websit
 
 ## Ethical considerations
 
+
 ## Disclaimer
 
 Please note that this book was written with assistance of ChatGPT because it's only right that a book on the use of ChatGPT was written some help of ChatGPT.
