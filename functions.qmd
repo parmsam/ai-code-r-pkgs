@@ -1,1 +1,1 @@
-# Functions
+# Functions {#sec-functions}
