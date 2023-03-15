@@ -5,3 +5,7 @@
 .DS_Store
 
 /.quarto/
+/_site/
+
+index.tex
+index.log
