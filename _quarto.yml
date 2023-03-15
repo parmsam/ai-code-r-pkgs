@@ -9,6 +9,10 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - overview.qmd
+    - functions.qmd
+    - testing.qmd
+    - vignettes.qmd
     - references.qmd
 
 bibliography: references.bib
