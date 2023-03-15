@@ -1,1 +1,22 @@
 # Functions {#sec-functions}
+
+## Generating functions
+
+### Naming things
+> "There are only two hard things in Computer Science: cache invalidation and naming things" -Phil Karlton 
+
+Naming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with
+
+* function names
+* function arguments
+* object names
+
+
+## Generating function documentation
+
+[roxygen2](https://roxygen2.r-lib.org/) is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.
+
+Here's an example:
+```
+
+```

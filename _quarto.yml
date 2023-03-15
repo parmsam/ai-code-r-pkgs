@@ -6,6 +6,8 @@ book:
   subtitle: "Creating R packages with assistance from Copilot or ChatGPT"
   author: "Sam Parmar"
   date: "3/13/2023"
+  site-url: parmsam.github.io/ai-code-r-pkgs/
+  repo-url: https://github.com/parmsam/ai-code-r-pkgs
   chapters:
     - index.qmd
     - intro.qmd
@@ -13,6 +15,7 @@ book:
     - functions.qmd
     - testing.qmd
     - vignettes.qmd
+    - combining.qmd
     - references.qmd
 
 bibliography: references.bib

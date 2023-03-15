@@ -82,5 +82,82 @@
     "title": "1  Introduction",
     "section": "1.4 Privacy",
     "text": "1.4 Privacy\nEnsure that you don’t provide AI code assistants such as ChatGPT or Github CoPilot with sensitive code or data. There have already been many cases of employees pasting sensitive data, and some estimates of how common this is. We’d recommend reading the privacy policy for the AI assistant that you’d using and recommend ensuring sensitive data is kept separate."
+  },
+  {
+    "objectID": "functions.html#generating-function-documentation",
+    "href": "functions.html#generating-function-documentation",
+    "title": "3  Functions",
+    "section": "3.2 Generating function documentation",
+    "text": "3.2 Generating function documentation\nroxygen2 is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.\nHere’s an example:"
+  },
+  {
+    "objectID": "functions.html#generating-functions",
+    "href": "functions.html#generating-functions",
+    "title": "3  Functions",
+    "section": "3.1 Generating functions",
+    "text": "3.1 Generating functions\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names"
+  },
+  {
+    "objectID": "testing.html#creating-unit-tests",
+    "href": "testing.html#creating-unit-tests",
+    "title": "4  Testing",
+    "section": "4.1 Creating unit tests",
+    "text": "4.1 Creating unit tests"
+  },
+  {
+    "objectID": "testing.html#generating-unit-tests",
+    "href": "testing.html#generating-unit-tests",
+    "title": "4  Testing",
+    "section": "4.1 Generating unit tests",
+    "text": "4.1 Generating unit tests"
+  },
+  {
+    "objectID": "vignettes.html#generating-vignettes",
+    "href": "vignettes.html#generating-vignettes",
+    "title": "5  Vignettes",
+    "section": "5.1 Generating vignettes",
+    "text": "5.1 Generating vignettes"
+  },
+  {
+    "objectID": "vignettes.html#generating-packge-readme",
+    "href": "vignettes.html#generating-packge-readme",
+    "title": "5  Vignettes",
+    "section": "5.2 Generating packge README",
+    "text": "5.2 Generating packge README"
+  },
+  {
+    "objectID": "vignettes.html#generating-packge-readmes",
+    "href": "vignettes.html#generating-packge-readmes",
+    "title": "5  Vignettes",
+    "section": "5.2 Generating packge READMEs",
+    "text": "5.2 Generating packge READMEs"
+  },
+  {
+    "objectID": "overview.html#on-chatgpt",
+    "href": "overview.html#on-chatgpt",
+    "title": "2  Overview",
+    "section": "2.1 On ChatGPT",
+    "text": "2.1 On ChatGPT"
+  },
+  {
+    "objectID": "overview.html#on-github-copilot",
+    "href": "overview.html#on-github-copilot",
+    "title": "2  Overview",
+    "section": "2.2 On Github CoPilot",
+    "text": "2.2 On Github CoPilot"
+  },
+  {
+    "objectID": "overview.html#chatgpt",
+    "href": "overview.html#chatgpt",
+    "title": "2  Overview",
+    "section": "2.1 ChatGPT",
+    "text": "2.1 ChatGPT"
+  },
+  {
+    "objectID": "overview.html#github-copilot",
+    "href": "overview.html#github-copilot",
+    "title": "2  Overview",
+    "section": "2.2 Github CoPilot",
+    "text": "2.2 Github CoPilot"
   }
 ]

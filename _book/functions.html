@@ -84,6 +84,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Use of AI Coding Assistants in R Package development</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/parmsam/ai-code-r-pkgs" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -125,6 +128,11 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./combining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Combining</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
@@ -133,7 +141,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#generating-functions" id="toc-generating-functions" class="nav-link active" data-scroll-target="#generating-functions"><span class="toc-section-number">3.1</span>  Generating functions</a>
+  <ul class="collapse">
+  <li><a href="#naming-things" id="toc-naming-things" class="nav-link" data-scroll-target="#naming-things"><span class="toc-section-number">3.1.1</span>  Naming things</a></li>
+  </ul></li>
+  <li><a href="#generating-function-documentation" id="toc-generating-function-documentation" class="nav-link" data-scroll-target="#generating-function-documentation"><span class="toc-section-number">3.2</span>  Generating function documentation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -155,8 +173,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="generating-functions" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="generating-functions"><span class="header-section-number">3.1</span> Generating functions</h2>
+<section id="naming-things" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="naming-things"><span class="header-section-number">3.1.1</span> Naming things</h3>
+<blockquote class="blockquote">
+<p>“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton</p>
+</blockquote>
+<p>Naming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with</p>
+<ul>
+<li>function names</li>
+<li>function arguments</li>
+<li>object names</li>
+</ul>
+</section>
+</section>
+<section id="generating-function-documentation" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="generating-function-documentation"><span class="header-section-number">3.2</span> Generating function documentation</h2>
+<p><a href="https://roxygen2.r-lib.org/">roxygen2</a> is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.</p>
+<p>Here’s an example:</p>
+<pre><code></code></pre>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
