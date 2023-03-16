@@ -2,6 +2,8 @@
 
 ## Generating functions
 
+You may have seen examples of this in other programming languages. 
+
 ### Naming things
 > "There are only two hard things in Computer Science: cache invalidation and naming things" -Phil Karlton 
 
@@ -9,14 +11,14 @@ Naming things is hard, but ChatGPT can help with that. Note that you can ask Cha
 
 * function names
 * function arguments
-* object names
+* object names    
 
 
 ## Generating function documentation
 
 [roxygen2](https://roxygen2.r-lib.org/) is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.
 
-Here's an example:
+Here's an example prompt:
 ```
 
 ```

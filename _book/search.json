@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Use of AI Coding Assistants in R Package development",
+    "title": "Use of AI Coding Assistants in R Package Development",
     "section": "",
     "text": "Preface\nThe world of software development is evolving rapidly, and the use of AI coding assistants is one of the latest developments that has caught the attention of developers worldwide. As an R package developer, you may have heard about the benefits of using AI coding assistants to automate repetitive coding tasks and increase coding efficiency. However, the vast array of available tools and techniques can make it challenging to determine which ones are suitable for your needs and how to integrate them into your development workflow.\nThis book provides a guide to using AI coding assistants in R package development. We cover different types of assistants, their benefits and drawbacks, and how to use them effectively. You’ll learn how to improve your workflow and increase productivity. By the end of the book, you’ll have a solid understanding of the potential benefits of using AI coding assistants and how to integrate it into your development workflow. We hope this book inspires you to explore the world of AI coding assistants and build better packages more efficiently."
   },
@@ -39,7 +39,7 @@
     "href": "intro.html#what-you-wont-learn",
     "title": "1  Introduction",
     "section": "1.5 What you won’t learn",
-    "text": "1.5 What you won’t learn\nHere are some topics you won’t learn about in this book:\n\nDeveloping your first R package\nCreating a large language model like ChatGPT"
+    "text": "1.5 What you won’t learn\nHere are some topics you won’t learn about in this book:\n\nDeveloping your first R package\nCreating a large language model like ChatGPT\nUsing AI code assistants for analysis with R"
   },
   {
     "objectID": "intro.html#colophon",
@@ -52,15 +52,15 @@
     "objectID": "intro.html#ethical-considerations",
     "href": "intro.html#ethical-considerations",
     "title": "1  Introduction",
-    "section": "1.5 Ethical considerations",
-    "text": "1.5 Ethical considerations"
+    "section": "1.7 Ethical considerations",
+    "text": "1.7 Ethical considerations\n\n1.7.1 Risk of Plaigarism\nAlthough there is evidence that AI code assistants can significantly improve productivity (a,b, c), there have been cases of unintentional plagiarism or copyright violation associated with ChatGPT use that you should also be aware of when using such tools for niche cases:\n\nSuch as a puzzle game called Sumplete\nOr possible class action lawsuits"
   },
   {
     "objectID": "intro.html#disclaimer",
     "href": "intro.html#disclaimer",
     "title": "1  Introduction",
-    "section": "1.7 Disclaimer",
-    "text": "1.7 Disclaimer\nPlease note that this book was written with assistance from ChatGPT because it’s only right that a book on the use of AI assistants was written with some help from ChatGPT. 😁"
+    "section": "1.8 Disclaimer",
+    "text": "1.8 Disclaimer\nPlease note that this book was written with assistance from ChatGPT because it’s only right that a book on the use of AI assistants was written with some help from ChatGPT. 😁"
   },
   {
     "objectID": "intro.html#in-this-book",
@@ -74,7 +74,7 @@
     "href": "intro.html#philosophy",
     "title": "1  Introduction",
     "section": "1.3 Philosophy",
-    "text": "1.3 Philosophy\nThis book advocates for the use of AI code assistants to improve your productivity. It shouldn’t replace good understanding of your code and selected programming language. Developers should be aware of current common failures of systems they may be using."
+    "text": "1.3 Philosophy\nThis book advocates for the use of AI code assistants to improve your productivity. However, it shouldn’t replace good understanding of your code and selected programming language. Developers should be aware of current common failures of systems they may be using. Also readers should be cautious about use of tools like ChatGPT to avoid learning."
   },
   {
     "objectID": "intro.html#privacy",
@@ -88,14 +88,14 @@
     "href": "functions.html#generating-function-documentation",
     "title": "3  Functions",
     "section": "3.2 Generating function documentation",
-    "text": "3.2 Generating function documentation\nroxygen2 is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.\nHere’s an example:"
+    "text": "3.2 Generating function documentation\nroxygen2 is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.\nHere’s an example prompt:"
   },
   {
     "objectID": "functions.html#generating-functions",
     "href": "functions.html#generating-functions",
     "title": "3  Functions",
     "section": "3.1 Generating functions",
-    "text": "3.1 Generating functions\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names"
+    "text": "3.1 Generating functions\nYou may have seen examples of this in other programming languages.\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names"
   },
   {
     "objectID": "testing.html#creating-unit-tests",
