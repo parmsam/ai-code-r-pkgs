@@ -12,7 +12,7 @@ We assume that the reader has prior experience developing R packages and is fami
 
 ## Philosophy
 
-This book advocates for the use of AI code assistants to improve your productivity. It shouldn't replace good understanding of your code and selected programming language. Developers should be aware of current [common failures](https://arxiv.org/abs/2302.03494) of systems they may be using.
+This book advocates for the use of AI code assistants to improve your productivity. However, it shouldn't replace good understanding of your code and selected programming language. Developers should be aware of current [common failures](https://arxiv.org/abs/2302.03494) of systems they may be using. Also readers should be cautious about use of tools like [ChatGPT to avoid learning](https://youtu.be/IgxzcOugvEI?t=214).
 
 ## Privacy
 
@@ -24,12 +24,24 @@ Here are some topics you won't learn about in this book:
 
 * Developing your first R package
 * Creating a large language model like ChatGPT
+* Using AI code assistants for analysis with R
 
 ## Colophon
 
 This book was created using [Quarto](https://quarto.org/docs/books/). The website is hosted on Github pages and the code is available on [Github](https://github.com/parmsam/ai-code-r-pkgs).
 
-<!-- ## Ethical considerations -->
+## Ethical considerations
+
+### Risk of Plaigarism
+
+Although there is evidence that AI code assistants can significantly improve productivity ([a](https://arxiv.org/abs/2302.06590),[b](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/), [c](https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/)), there have been cases of unintentional plagiarism or copyright violation associated with ChatGPT use that you should also be aware of when using such tools for niche cases:
+ 
+* Such as a puzzle game called [Sumplete](https://www.digitaltrends.com/gaming/sumplete-chatgpt-ai-game-design-ethics/)
+* Or possible [class action lawsuits](https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data)
+
+
+<!-- * [ChatGPT and Software Testing Education: Promises & Perils](https://arxiv.org/abs/2302.03287) -->
+<!-- * [Exploring AI Ethics of ChatGPT: A Diagnostic Analysis](https://arxiv.org/abs/2301.12867) -->
 
 ## Disclaimer
 

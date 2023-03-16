@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "Use of AI Coding Assistants in R Package development"
-  subtitle: "Creating R packages with assistance from Copilot or ChatGPT"
+  title: "Use of AI Coding Assistants in R Package Development"
+  subtitle: "Creating R packages with assistance from Github Copilot or ChatGPT"
   author: "Sam Parmar"
   date: "3/13/2023"
   site-url: parmsam.github.io/ai-code-r-pkgs/

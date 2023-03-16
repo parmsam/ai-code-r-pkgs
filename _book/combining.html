@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Use of AI Coding Assistants in R Package development - 3&nbsp; Functions</title>
+<title>Use of AI Coding Assistants in R Package development - 6&nbsp; Combining</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./testing.html" rel="next">
-<link href="./overview.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./vignettes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Functions</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Combining</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./functions.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Functions</span></a>
+  <a href="./functions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Functions</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./combining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Combining</span></a>
+  <a href="./combining.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Combining</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -141,24 +141,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#generating-functions" id="toc-generating-functions" class="nav-link active" data-scroll-target="#generating-functions"><span class="toc-section-number">3.1</span>  Generating functions</a>
-  <ul class="collapse">
-  <li><a href="#naming-things" id="toc-naming-things" class="nav-link" data-scroll-target="#naming-things"><span class="toc-section-number">3.1.1</span>  Naming things</a></li>
-  </ul></li>
-  <li><a href="#generating-function-documentation" id="toc-generating-function-documentation" class="nav-link" data-scroll-target="#generating-function-documentation"><span class="toc-section-number">3.2</span>  Generating function documentation</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-functions" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Functions</span></span></h1>
+<h1 class="title"><span id="sec-combining" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Combining</span></span></h1>
 </div>
 
 
@@ -173,30 +163,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="generating-functions" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="generating-functions"><span class="header-section-number">3.1</span> Generating functions</h2>
-<p>You may have seen examples of this in other programming languages.</p>
-<section id="naming-things" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="naming-things"><span class="header-section-number">3.1.1</span> Naming things</h3>
-<blockquote class="blockquote">
-<p>“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton</p>
-</blockquote>
-<p>Naming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with</p>
-<ul>
-<li>function names</li>
-<li>function arguments</li>
-<li>object names</li>
-</ul>
-</section>
-</section>
-<section id="generating-function-documentation" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="generating-function-documentation"><span class="header-section-number">3.2</span> Generating function documentation</h2>
-<p><a href="https://roxygen2.r-lib.org/">roxygen2</a> is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.</p>
-<p>Here’s an example prompt:</p>
-<pre><code></code></pre>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -334,13 +302,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./overview.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Overview</span></span>
+      <a href="./vignettes.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Vignettes</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./testing.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Testing</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
