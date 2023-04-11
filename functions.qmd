@@ -2,7 +2,7 @@
 
 ## Generating functions
 
-You may have seen examples of this in other programming languages. 
+You may have seen examples of this in other programming languages. Note that generative AI systems like Github Copilot or ChatGPT are not determistic meaning they can give different results for the same prompt. You may not be able to exactly reproduce examples in this chapter and in this book, but they provide an example of what your response could look like.
 
 ### Naming things
 > "There are only two hard things in Computer Science: cache invalidation and naming things" -Phil Karlton 

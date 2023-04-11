@@ -145,7 +145,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#chatgpt" id="toc-chatgpt" class="nav-link active" data-scroll-target="#chatgpt"><span class="toc-section-number">2.1</span>  ChatGPT</a></li>
+  <li><a href="#chatgpt" id="toc-chatgpt" class="nav-link active" data-scroll-target="#chatgpt"><span class="toc-section-number">2.1</span>  ChatGPT</a>
+  <ul class="collapse">
+  <li><a href="#use-with-rstudio" id="toc-use-with-rstudio" class="nav-link" data-scroll-target="#use-with-rstudio"><span class="toc-section-number">2.1.1</span>  Use with RStudio</a></li>
+  </ul></li>
   <li><a href="#github-copilot" id="toc-github-copilot" class="nav-link" data-scroll-target="#github-copilot"><span class="toc-section-number">2.2</span>  Github Copilot</a></li>
   </ul>
 </nav>
@@ -175,6 +178,14 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://openai.com/blog/chatgpt">ChatGPT</a> is an AI chatbot created by OpenAI and released in November 2022. It is based on the GPT3.5 and GPT-4 large language model architecture. Trained on a massive corpus of diverse texts, ChatGPT is capable of generating human-like responses to natural language inputs, including written text and speech. Its impressive language understanding and generation capabilities make it a powerful tool for a wide range of applications, including natural language processing, conversational AI, and content creation.</p>
 <p>ChatGPT can be used to perform tasks such as text summarization, sentiment analysis, and machine translation with impressive accuracy and speed. Additionally, the underlying model’s ability to generate natural language responses means that it can also be used to create chatbots and virtual assistants that can converse with users in a human-like manner.</p>
 <p>ChatGPT is available for free and accessible via the web browser. You can begin using ChatGPT by visiting <a href="https://chat.openai.com/">this link</a> and signing up for an account. OpenAI has also released a subscription plan called <a href="https://openai.com/blog/chatgpt-plus">ChatGPT Plus</a>.</p>
+<section id="use-with-rstudio" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="use-with-rstudio"><span class="header-section-number">2.1.1</span> Use with RStudio</h3>
+<p>There are a variety of R packages available to use ChatGPT with RStudio. Here are some of those packages that make use of the GPT-3 and GPT-3.5 API provided by OpenAI.</p>
+<ul>
+<li><a href="https://github.com/MichelNivard/gptstudio">{gptstudio}</a> - easily incorporate use of large language models (LLMs) into their project workflows</li>
+<li><a href="https://jameshwade.github.io/gpttools/">{gpttools}</a> - extends gptstudio for R package developers <!-- * [{askgpt}](https://github.com/jbgruber/askgpt) - chat interface build on top of OpenAI's API endpoints --> <!-- * [{chatgpt}](https://github.com/jcrodriguez1989/chatgpt) - Interface to ChatGPT from R --> <!-- * [{gptchatteR}](https://github.com/isinaltinkaya/gptchatteR) - experimental and unofficial wrapper for interacting with OpenAI GPT models in R--></li>
+</ul>
+</section>
 </section>
 <section id="github-copilot" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="github-copilot"><span class="header-section-number">2.2</span> Github Copilot</h2>

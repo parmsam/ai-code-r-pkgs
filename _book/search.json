@@ -95,7 +95,7 @@
     "href": "functions.html#generating-functions",
     "title": "3  Functions",
     "section": "3.1 Generating functions",
-    "text": "3.1 Generating functions\nYou may have seen examples of this in other programming languages.\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names\n\n\n\n3.1.2 Pattern matching"
+    "text": "3.1 Generating functions\nYou may have seen examples of this in other programming languages. Note that generative AI systems like Github Copilot or ChatGPT are not determistic meaning they can give different results for the same prompt. You may not be able to exactly reproduce examples in this chapter and in this book, but they provide an example of what your response could look like.\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names\n\n\n\n3.1.2 Pattern matching"
   },
   {
     "objectID": "testing.html#creating-unit-tests",
@@ -151,7 +151,7 @@
     "href": "overview.html#chatgpt",
     "title": "2  Overview",
     "section": "2.1 ChatGPT",
-    "text": "2.1 ChatGPT\nChatGPT is an AI chatbot created by OpenAI and released in November 2022. It is based on the GPT3.5 and GPT-4 large language model architecture. Trained on a massive corpus of diverse texts, ChatGPT is capable of generating human-like responses to natural language inputs, including written text and speech. Its impressive language understanding and generation capabilities make it a powerful tool for a wide range of applications, including natural language processing, conversational AI, and content creation.\nChatGPT can be used to perform tasks such as text summarization, sentiment analysis, and machine translation with impressive accuracy and speed. Additionally, the underlying model’s ability to generate natural language responses means that it can also be used to create chatbots and virtual assistants that can converse with users in a human-like manner.\nChatGPT is available for free and accessible via the web browser. You can begin using ChatGPT by visiting this link and signing up for an account. OpenAI has also released a subscription plan called ChatGPT Plus."
+    "text": "2.1 ChatGPT\nChatGPT is an AI chatbot created by OpenAI and released in November 2022. It is based on the GPT3.5 and GPT-4 large language model architecture. Trained on a massive corpus of diverse texts, ChatGPT is capable of generating human-like responses to natural language inputs, including written text and speech. Its impressive language understanding and generation capabilities make it a powerful tool for a wide range of applications, including natural language processing, conversational AI, and content creation.\nChatGPT can be used to perform tasks such as text summarization, sentiment analysis, and machine translation with impressive accuracy and speed. Additionally, the underlying model’s ability to generate natural language responses means that it can also be used to create chatbots and virtual assistants that can converse with users in a human-like manner.\nChatGPT is available for free and accessible via the web browser. You can begin using ChatGPT by visiting this link and signing up for an account. OpenAI has also released a subscription plan called ChatGPT Plus.\n\n2.1.1 Use with RStudio\nThere are a variety of R packages available to use ChatGPT with RStudio. Here are some of those packages that make use of the GPT-3 and GPT-3.5 API provided by OpenAI.\n\n{gptstudio} - easily incorporate use of large language models (LLMs) into their project workflows\n{gpttools} - extends gptstudio for R package developers"
   },
   {
     "objectID": "overview.html#github-copilot",
@@ -166,5 +166,33 @@
     "title": "3  Functions",
     "section": "",
     "text": "4 Understanding third party code\nThe next chapter covers how AI coding assistants can help with unit test development."
+  },
+  {
+    "objectID": "combining.html#case-study-package-to-redact-sensitive-data-in-strings",
+    "href": "combining.html#case-study-package-to-redact-sensitive-data-in-strings",
+    "title": "6  Combining",
+    "section": "6.1 Case Study: Package to redact sensitive data in strings",
+    "text": "6.1 Case Study: Package to redact sensitive data in strings\n{redacted} was created primarilty using ChatGPT."
+  },
+  {
+    "objectID": "combining.html#case-studies",
+    "href": "combining.html#case-studies",
+    "title": "6  Combining",
+    "section": "6.1 Case Studies",
+    "text": "6.1 Case Studies"
+  },
+  {
+    "objectID": "combining.html#redacted",
+    "href": "combining.html#redacted",
+    "title": "6  Combining",
+    "section": "6.2 {redacted}",
+    "text": "6.2 {redacted}\n{redacted} is a package to redact sensitive data in strings was created primarily using ChatGPT."
+  },
+  {
+    "objectID": "combining.html#packge-to-redact-sensitive-data-in-strings",
+    "href": "combining.html#packge-to-redact-sensitive-data-in-strings",
+    "title": "6  Combining",
+    "section": "6.2 Packge to redact sensitive data in strings",
+    "text": "6.2 Packge to redact sensitive data in strings\n{redacted} is a package to redact sensitive data in strings was created primarily using ChatGPT."
   }
 ]

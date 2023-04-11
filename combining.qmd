@@ -1,1 +1,7 @@
 # Combining {#sec-combining}
+
+## Case Studies
+
+## Packge to redact sensitive data in strings
+
+[{redacted}](https://github.com/parmsam/redacted) is a package to redact sensitive data in strings was created primarily using ChatGPT.
