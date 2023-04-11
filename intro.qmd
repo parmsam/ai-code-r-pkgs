@@ -2,8 +2,8 @@
 
 ## In this book
 
-Whether you are an experienced R package developer looking to improve your workflow, or a data scientist interested in building packages to share your work with others, this book will provide valuable insights into how AI coding assistants can help you build your packages more efficiently. Specifically, we will go over [ChatGPT](https://openai.com/blog/chatgpt) and [Github Copilot](https://github.com/features/copilot), two of the most popular AI coding assistants currently available. 
-
+Whether you are an experienced R package developer looking to improve your workflow, or a data scientist interested in building packages to share your work with others, this book will provide valuable insights into how AI coding assistants can help you build your packages more efficiently. Specifically, we will go over [ChatGPT](https://openai.com/blog/chatgpt) and [Github Copilot](https://github.com/features/copilot), two of the most popular AI coding assistants currently available. For the purposes of this book, we will consider AI pair programmers to also be AI coding assistants.
+ 
 [Chapter -@sec-overview] will provide an overview of these tools. We will then dive into individual chapters on how these tools can assist with the development of functions in [chapter -@sec-functions], unit tests in [chapter -@sec-testing], and vignettes in [chapter -@sec-vignettes], providing practical examples and best practices along the way.
 
 ## Prerequisites
@@ -34,12 +34,12 @@ This book was created using [Quarto](https://quarto.org/docs/books/). The websit
 
 ### Risk of Plaigarism
 
-Although there is evidence that AI code assistants can significantly improve productivity ([a](https://arxiv.org/abs/2302.06590),[b](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/), [c](https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/)), there have been cases of unintentional plagiarism or copyright violation associated with ChatGPT use that you should also be aware of when using such tools for niche cases:
+Although there is evidence that AI code assistants can significantly improve productivity ([a](https://arxiv.org/abs/2302.06590),[b](https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/), or [c](https://github.blog/2022-07-14-research-how-github-copilot-helps-improve-developer-productivity/)), there have been cases of unintentional plagiarism or copyright violation associated with ChatGPT use that you should also be aware of when using such tools for niche cases:
  
 * Such as a puzzle game called [Sumplete](https://www.digitaltrends.com/gaming/sumplete-chatgpt-ai-game-design-ethics/)
 * Or possible [class action lawsuits](https://www.theverge.com/2022/11/8/23446821/microsoft-openai-github-copilot-class-action-lawsuit-ai-copyright-violation-training-data)
 
-
+Additionally, if you are using Github Copilot in an organization or business context, you may need confirm safe use with your IT department to and possibly updating your [suggestion matching policies](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-settings-in-your-organization#configuring-suggestion-matching-policies-for-github-copilot-in-your-organization) on public code.
 <!-- * [ChatGPT and Software Testing Education: Promises & Perils](https://arxiv.org/abs/2302.03287) -->
 <!-- * [Exploring AI Ethics of ChatGPT: A Diagnostic Analysis](https://arxiv.org/abs/2301.12867) -->
 

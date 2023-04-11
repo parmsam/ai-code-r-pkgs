@@ -2,12 +2,16 @@
 
 ## ChatGPT
 
-[ChatGPT](https://openai.com/blog/chatgpt) is an AI chatbot created by OpenAI and released in November 2022. It is based on GPT3.5 and GPT-4. 
+[ChatGPT](https://openai.com/blog/chatgpt) is an AI chatbot created by OpenAI and released in November 2022. It is based on the GPT3.5 and GPT-4 large language model architecture.  Trained on a massive corpus of diverse texts, ChatGPT is capable of generating human-like responses to natural language inputs, including written text and speech. Its impressive language understanding and generation capabilities make it a powerful tool for a wide range of applications, including natural language processing, conversational AI, and content creation.
+
+ChatGPT can be used to perform tasks such as text summarization, sentiment analysis, and machine translation with impressive accuracy and speed. Additionally, the underlying model's ability to generate natural language responses means that it can also be used to create chatbots and virtual assistants that can converse with users in a human-like manner.
+
+ChatGPT is available for free and accessible via the web browser. You can begin using ChatGPT by visiting [this link](https://chat.openai.com/) and signing up for an account. OpenAI has also released a subscription plan called [ChatGPT Plus](https://openai.com/blog/chatgpt-plus).
 
 ## Github Copilot
 
-[Github Copilot](https://github.com/features/copilot) is an AI code assistance tool developed by Github and released in June 2022. It is powered by the OpenAI Codex which is a modified version of GPT-3. Copilot has been trained on public code in Github repositories. The tool provides autocomplete-style suggestions and draws context from comments and code. 
+[Github Copilot](https://github.com/features/copilot) is an AI code assistance tool developed by Github and released in June 2022. It is powered by the OpenAI Codex which is a modified version of GPT-3. Copilot has been trained on public code in Github repositories. One of the key benefits of Github Copilot is its ability to save developers time and effort. It is designed to help developers write code more efficiently and accurately by providing suggestions and autocompletion based on the context of their code. It can also help reduce the cognitive load on developers by taking care of routine tasks and allowing them to focus on more complex aspects of code development. 
 
-Copilot is available to use via a variety of IDE extensions such as the [VS Code](https://docs.github.com/en/copilot/getting-started-with-github-copilot) extension which is what this book uses. 
+Copilot is available as a plugin for popular integrated development environments (IDEs) such as [Visual Studio Code](https://docs.github.com/en/copilot/getting-started-with-github-copilot) and supports a wide range of programming languages, making it accessible to developers across different domains and industries. You can begin using Github Copilot by visiting [this link](https://github.com/features/copilot) and signing up for an account.
 
 Github Copilot X was [recently announced](https://github.com/features/preview/copilot-x) which will include Github Copilot Chat and Docs.

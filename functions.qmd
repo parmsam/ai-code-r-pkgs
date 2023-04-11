@@ -13,7 +13,8 @@ Naming things is hard, but ChatGPT can help with that. Note that you can ask Cha
 * function arguments
 * object names
 
-### Designing a function body
+### Pattern matching
+
 
 
 ## Generating function documentation
