@@ -2,7 +2,7 @@
 
 ## Generating functions
 
-You may have seen examples of this in other programming languages. 
+You may have seen examples of this in other programming languages. Note that generative AI systems like Github Copilot or ChatGPT are not determistic meaning they can give different results for the same prompt. You may not be able to exactly reproduce examples in this chapter and in this book, but they provide an example of what your response could look like.
 
 ### Naming things
 > "There are only two hard things in Computer Science: cache invalidation and naming things" -Phil Karlton 
@@ -11,10 +11,20 @@ Naming things is hard, but ChatGPT can help with that. Note that you can ask Cha
 
 * function names
 * function arguments
-* object names    
+* object names
+
+### Pattern matching
+
 
 
 ## Generating function documentation
+
+Here's an example prompt:
+
+```
+
+```
+### roxygen2 headers
 
 [roxygen2](https://roxygen2.r-lib.org/) is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.
 
@@ -22,3 +32,7 @@ Here's an example prompt:
 ```
 
 ```
+# Understanding third party code
+
+
+The next chapter covers how AI coding assistants can help with unit test development.
