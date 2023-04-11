@@ -88,14 +88,14 @@
     "href": "functions.html#generating-function-documentation",
     "title": "3  Functions",
     "section": "3.2 Generating function documentation",
-    "text": "3.2 Generating function documentation\nroxygen2 is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.\nHere’s an example prompt:"
+    "text": "3.2 Generating function documentation\nHere’s an example prompt:\n\n\n3.2.1 roxygen2 headers\nroxygen2 is the standard tool for function documentation. You can request your AI code assistant to generate roxygen2 documentation or even include it as a header above previously generated functions or future functions.\nHere’s an example prompt:"
   },
   {
     "objectID": "functions.html#generating-functions",
     "href": "functions.html#generating-functions",
     "title": "3  Functions",
     "section": "3.1 Generating functions",
-    "text": "3.1 Generating functions\nYou may have seen examples of this in other programming languages.\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names"
+    "text": "3.1 Generating functions\nYou may have seen examples of this in other programming languages.\n\n3.1.1 Naming things\n\n“There are only two hard things in Computer Science: cache invalidation and naming things” -Phil Karlton\n\nNaming things is hard, but ChatGPT can help with that. Note that you can ask ChatGPT to come up with catchy names or edit existing names. Here are some names you can get help with\n\nfunction names\nfunction arguments\nobject names\n\n\n\n3.1.2 Designing a function body"
   },
   {
     "objectID": "testing.html#creating-unit-tests",
@@ -151,13 +151,20 @@
     "href": "overview.html#chatgpt",
     "title": "2  Overview",
     "section": "2.1 ChatGPT",
-    "text": "2.1 ChatGPT"
+    "text": "2.1 ChatGPT\nChatGPT is an AI chatbot created by OpenAI and released in November 2022. It is based on GPT3.5 and GPT-4."
   },
   {
     "objectID": "overview.html#github-copilot",
     "href": "overview.html#github-copilot",
     "title": "2  Overview",
-    "section": "2.2 Github CoPilot",
-    "text": "2.2 Github CoPilot"
+    "section": "2.2 Github Copilot",
+    "text": "2.2 Github Copilot\nGithub Copilot is an AI code assistance tool developed by Github and released in June 2022. It is powered by the OpenAI Codex which is a modified version of GPT-3. Copilot has been trained on public code in Github repositories. The tool provides autocomplete-style suggestions and draws context from comments and code.\nCopilot is available to use via a variety of IDE extensions such as the VS Code extension which is what this book uses.\nGithub Copilot X was recently announced which will include Github Copilot Chat and Docs."
+  },
+  {
+    "objectID": "functions.html",
+    "href": "functions.html",
+    "title": "3  Functions",
+    "section": "",
+    "text": "4 Understanding third party code\nThe next chapter covers how AI coding assistants can help with unit test development."
   }
 ]

@@ -2,4 +2,12 @@
 
 ## ChatGPT
 
-## Github CoPilot
+[ChatGPT](https://openai.com/blog/chatgpt) is an AI chatbot created by OpenAI and released in November 2022. It is based on GPT3.5 and GPT-4. 
+
+## Github Copilot
+
+[Github Copilot](https://github.com/features/copilot) is an AI code assistance tool developed by Github and released in June 2022. It is powered by the OpenAI Codex which is a modified version of GPT-3. Copilot has been trained on public code in Github repositories. The tool provides autocomplete-style suggestions and draws context from comments and code. 
+
+Copilot is available to use via a variety of IDE extensions such as the [VS Code](https://docs.github.com/en/copilot/getting-started-with-github-copilot) extension which is what this book uses. 
+
+Github Copilot X was [recently announced](https://github.com/features/preview/copilot-x) which will include Github Copilot Chat and Docs.
