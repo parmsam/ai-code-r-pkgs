@@ -7,7 +7,7 @@ The goal of AI Coding Assistants in R Package Development is to provide guidance
 
 ## Contributing
 
-Are you interested in learning how you can contribute to this package? Head over to the [contributor guide](github/CONTRIBUTING.md).
+Are you interested in learning how you can contribute to this package? Head over to the [contributor guide](.github/CONTRIBUTING.md).
 
 ## Code of Conduct
 
