@@ -45,4 +45,4 @@ Additionally, if you are using Github Copilot in an organization or business con
 
 ## Disclaimer
 
-Please note that this book was written with assistance from ChatGPT because it's only right that a book on the use of AI assistants was written with [some help from ChatGPT](https://media.giphy.com/media/qAtZM2gvjWhPjmclZE/giphy.gif). 😁
+Please note that this book was written with assistance from ChatGPT because it's only right that a book on the use of AI assistants was written with [some help from ChatGPT](https://media.giphy.com/media/qAtZM2gvjWhPjmclZE/giphy.gif).
